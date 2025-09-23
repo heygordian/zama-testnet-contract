@@ -1,15 +1,61 @@
-# Zama Testnet Contract Deployment
+# Zama Testnet Smart Contract Deployment
 
-This project is set up for deploying smart contracts on the Zama Testnet and Sepolia testnet.
+A complete development environment for deploying and managing smart contracts on the Zama Testnet, featuring FHEVM (Fully Homomorphic Encryption Virtual Machine) support for confidential computing applications.
 
-## Prerequisites
+## 🚀 Live Deployment
+
+**Contract Address:** `0x4c7879BFE81E00400479D1094b37b5A9b09DA96E`  
+**Network:** Zama Testnet (Sepolia with FHEVM)  
+**Deployer:** `0x702F9bf9089D1A52d16e849Ab8B2Fffe5b694c45`  
+**Etherscan:** [View on Sepolia Etherscan](https://sepolia.etherscan.io/address/0x4c7879BFE81E00400479D1094b37b5A9b09DA96E)
+
+## 🔧 Features
+
+- ✅ **Hardhat Development Environment** - Complete setup with TypeScript support
+- ✅ **FHEVM Integration** - Support for confidential computing with Zama's FHE technology
+- ✅ **Multi-Network Deployment** - Configured for both local testing and testnet deployment
+- ✅ **Smart Contract Templates** - Ready-to-use contract examples with counter and messaging functionality
+- ✅ **Security Best Practices** - Proper environment variable handling and gitignore configuration
+- ✅ **Documentation** - Comprehensive setup and deployment guides
+
+## 🛠️ Technologies Used
+
+- **Hardhat** - Ethereum development framework
+- **Solidity** - Smart contract programming language
+- **TypeScript** - Type-safe JavaScript development
+- **FHEVM** - Zama's Fully Homomorphic Encryption Virtual Machine
+- **Ethers.js** - Ethereum library for JavaScript/TypeScript
+- **Sepolia Testnet** - Ethereum test network with Zama FHEVM support
+
+## 📋 Prerequisites
 
 - Node.js (LTS version)
 - npm (comes with Node.js)
 - A wallet (MetaMask recommended)
 - Sepolia testnet ETH (available from faucets)
 
-## Setup Instructions
+## ⚡ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/0xgordian/zama-testnet-contract.git
+cd zama-testnet-contract
+
+# Install dependencies
+npm install
+
+# Configure environment
+cp env.template .env
+# Edit .env with your private key
+
+# Compile contracts
+npx hardhat compile
+
+# Deploy to Zama testnet
+npx hardhat run scripts/deploy-fhevm.js --network sepolia
+```
+
+## 📖 Setup Instructions
 
 1. **Install dependencies:**
    ```bash
