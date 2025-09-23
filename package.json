@@ -1,0 +1,30 @@
+{
+  "name": "zama-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@fhevm/mock-utils": "^0.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/node": "^24.5.2",
+    "@zama-fhe/oracle-solidity": "^0.1.0",
+    "@zama-fhe/relayer-sdk": "^0.2.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@fhevm/hardhat-plugin": "^0.1.0",
+    "@fhevm/solidity": "^0.8.0",
+    "dotenv": "^17.2.2"
+  }
+}
