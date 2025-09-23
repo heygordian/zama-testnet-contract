@@ -121,7 +121,7 @@ zama-contract/
 3. **Deployment errors:** Verify your RPC URL and private key
 4. **Private key errors:** Ensure your private key is 64 characters long (without 0x prefix)
 
-### Best Practices
+### NOTE
 
 - Always use the latest stable versions of dependencies
 - Keep your environment variables secure
