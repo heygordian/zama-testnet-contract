@@ -110,7 +110,7 @@ zama-contract/
 ## Getting Testnet ETH
 
 - **Sepolia ETH:** Use faucets like [Alchemy Sepolia Faucet](https://sepoliafaucet.com/) or [Chainlink Faucet](https://faucets.chain.link/sepolia)
-- **Zama Testnet:** Check Zama documentation for their specific faucet
+- **Zama Testnet:** Check [Zama documentation](https://docs.zama.ai/) for their specific faucet
 
 ## Troubleshooting
 
